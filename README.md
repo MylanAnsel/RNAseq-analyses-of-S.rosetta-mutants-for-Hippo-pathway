@@ -5,7 +5,7 @@ This repository contains the code used to generate data for the paper:
 
 ## Data Availability
 
-**Raw sequencing data (fastq and BAM files) are available in SRA:..., intermediate results, Sequana and SARTools reports, and final plots are available on [Figshare](...).**
+**Raw sequencing data (fastq and BAM files) are available in SRA (coming soon), intermediate results, Sequana and SARTools reports, and final plots are available on [Figshare](https://figshare.com/articles/dataset/A_selection-based_knockout_method_for_a_choanoflagellate_reveals_regulation_of_multicellular_development_by_Hippo_signaling/29401835).**
 
 ---
 
@@ -150,4 +150,4 @@ For questions, please contact:
 
 
 ## License
-For open source projects, say how it is licensed.
+This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
