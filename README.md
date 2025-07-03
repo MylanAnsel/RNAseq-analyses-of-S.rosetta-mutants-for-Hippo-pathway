@@ -5,7 +5,8 @@ This repository contains the code used to generate data for the paper:
 
 ## Data Availability
 
-**Raw sequencing data (fastq and BAM files) are available in SRA (coming soon), intermediate results, Sequana and SARTools reports, and final plots are available on [Figshare](https://figshare.com/articles/dataset/A_selection-based_knockout_method_for_a_choanoflagellate_reveals_regulation_of_multicellular_development_by_Hippo_signaling/29401835).**
+**- Raw sequencing data (fastq and BAM files) are available in SRA (coming soon).**
+**- The files required to run the scripts in this repository, intermediate results, Sequana and SARTools reports, and final plots are publicly available on [Figshare](https://figshare.com/articles/dataset/A_selection-based_knockout_method_for_a_choanoflagellate_reveals_regulation_of_multicellular_development_by_Hippo_signaling/29401835). Input and output files for the analysis of pacI mutants (insertion) and pacΔ mutants (deletion) are located in the directories `KO_Insertion_DEG_analysis` and `KO_Deletion_DEG_analysis`, respectively.**
 
 ---
 
@@ -130,6 +131,19 @@ Gene annotations were retrieved via UniProt API, except:
 **Output:**
 - Plots in `output_for_R_analysis/VolcanoPlot/`
 
+
+### 7/ Log2FoldChange Plot
+
+**Scripts:**
+- `Del_VolcanoPlot_YORKIE.R`: Compare log2FoldChange of Yorkie-KO genes which are also consistent Warts-KO DEGs with all other Yorkie-KO genes
+
+**Input:**
+- DEG tables from:  
+  `output_for_R_analysis/tables/` and  
+  `output_for_R_analysis/Heatmap/filtered_deg_lists/`
+
+**Output:**
+- Plot: `output_for_R_analysis/Dotplot_YorkieKO-all_vs_YorkieKO-Warts_log2FC.svg`
 ---
 
 ## Citation
