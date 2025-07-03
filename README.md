@@ -164,4 +164,5 @@ For questions, please contact:
 
 
 ## License
-This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+All source code in this repository, including modified components derived from GPL-2.0 licensed libraries, is released under the terms of the GNU General Public License v2.0 (GPL-2.0).
+All data files, results, figures, and documentation (e.g., analysis outputs, figures, and this README) are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
